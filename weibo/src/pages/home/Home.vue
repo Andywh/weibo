@@ -1,6 +1,11 @@
 <template>
   <div class='home'>
-    <div >home1</div>
+    <div class="icon">
+      <img src="https://passport.weibo.cn/images/weibo/signin/default-avatar_2x.png" />
+    </div>
+    <div>
+      <input />
+    </div>
   </div>
 </template>
 
@@ -11,7 +16,4 @@ export default {
 </script>
 
 <style>
-  .home {
-    font-size: 50px;
-  }
 </style>
