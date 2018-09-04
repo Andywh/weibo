@@ -1,17 +1,14 @@
 <template>
-  <div class='home'>
-    <div class="icon">
-      <img src="https://passport.weibo.cn/images/weibo/signin/default-avatar_2x.png" />
-    </div>
-    <div>
-      <input />
-    </div>
-  </div>
+  <home-time-line></home-time-line>
 </template>
 
 <script>
+import HomeTimeLine from './components/TimeLine'
 export default {
-  name: 'Home'
+  name: 'Home',
+  components: {
+    HomeTimeLine
+  }
 }
 </script>
 

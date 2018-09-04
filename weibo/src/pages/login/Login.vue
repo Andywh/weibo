@@ -16,7 +16,7 @@ import LoginAccount from './components/Account'
 import LoginFooter from './components/Footer'
 
 export default {
-  name: 'Home',
+  name: 'Login',
   components: {
     LoginInput,
     LoginLogo,
